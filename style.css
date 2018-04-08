@@ -82,3 +82,7 @@
         left: 15vw;
     }
 }
+
+.styletile img {
+    width: 100%;
+}
