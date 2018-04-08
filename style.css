@@ -1,0 +1,84 @@
+#scene {
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+}
+
+#baggrund {
+    width: 100vw;
+    height: 52.3vw;
+    background-image: url(Images/Baggrund_version2.svg);
+    background-size: 100%;
+}
+
+#trump {
+    width: 9vw;
+    height: 16.4vw;
+    background-image: url(Images/Trump_version1.svg);
+    background-size: 100%;
+    position: absolute;
+    bottom: 12vw;
+    left: 58vw;
+    animation-name: trump;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-timing-function: linear;
+}
+
+@keyframes trump {
+    0% {
+        bottom: 12vw;
+    }
+
+    25% {
+        bottom: 20vw;
+    }
+
+    50% {
+        bottom: 12vw;
+    }
+
+    75% {
+        bottom: 20vw;
+    }
+
+    100% {
+        bottom: 12vw;
+    }
+}
+
+#unicorn {
+    width: 12vw;
+    height: 22.5vw;
+    background-image: url(Images/Unicorn_version1.svg);
+    background-size: 100%;
+    position: absolute;
+    bottom: 8vw;
+    left: 18vw;
+    animation-name: unicorn;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-timing-function: linear;
+}
+
+@keyframes unicorn {
+    0% {
+        left: 15vw;
+    }
+
+    25% {
+        left: 30vw;
+    }
+
+    50% {
+        left: 15vw;
+    }
+
+    75% {
+        left: 30vw;
+    }
+
+    100% {
+        left: 15vw;
+    }
+}
